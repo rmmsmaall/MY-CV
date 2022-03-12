@@ -3,6 +3,7 @@ body{
   color: #557C55;
   margin: 0;
 text-align: center;
+background-color: #EEEDDE;
 }
 
 h1{
@@ -10,13 +11,14 @@ h1{
 margin: 50px auto 0 auto;
 color: #66BFBF;
 line-height:2;
-
-/* margin: 0 auto 0 auto; and margin: 0 auto dose the same thing the first one means that the top right bottom and left and it is more spicefic then the other one and it is the top and bottom for the first one and lift and right for the other one (number or value ) + if any element has an edited  width  the code(text-align: center;) wont work on it so we use the previous code of margin  */
+font-family:'sacramento',cursive;
+/* margin: 0 auto 0 auto; and margin: 0 auto dose the same thing the first one means that the top right bottom and left and it is more spicefic than the other one and it is the top and bottom for the first one and lift and right for the other one (number or value ) + if any element has an edited  width  the code(text-align: center;) wont work on it so we use the previous code of margin  */
 }
 
 h2{
   color:#66BFBF;
   font-weight:normal;
+  font-family: monospace;
 }
 
 h3{
@@ -28,7 +30,7 @@ hr{
 border-style: none;
 border-top-style: dotted;
 border-width: 5px;
-width: 7%;
+width: 6%;
 }
 
 a{
@@ -41,6 +43,11 @@ a:hover{
   color:#EAF6F6;
 }
 /****************************CLASS SELECTOR****************************/
+
+.title {
+ font-family:'sacramento',cursive;
+}
+
 .dev{
  text-decoration: underline;
 }
@@ -53,6 +60,7 @@ a:hover{
 
 .middle-container{
   margin: 100px 0;
+  background-color: #EEEDDE;
 }
 
 
@@ -94,16 +102,20 @@ line-height: 2;     /*-_-in line-height i dont need a unit only the number as a 
  .man {
 width: 12%;
  }
-
- .data-cloud {
+/* width: 20%;
+ float: right;
+ padding-left: 30px;*/
+ .cube {
    width: 20%;
    float: right;
    padding-left: 30px;
 
  }
 
+
 .p1{
   clear: left;
+
 }
 
 .btn {
@@ -179,4 +191,5 @@ width: 12%;
 
 
 
-/**/ 
+/**/
+
